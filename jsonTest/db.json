@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "小咪"
+    },
+    {
+      "id": 2,
+      "name": "阿明"
+    },
+    {
+      "id": 3,
+      "name": "阿源"
+    },
+    {
+      "id": 4,
+      "name": "歪歪"
+    }
+  ],
+  "posts":[
+    {
+      "id": 1,
+      "body": "阿明的 post",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "body":  "阿明的 post",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "body": "阿源的 post",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "body": "歪歪的 post",
+      "userId":4
+    },
+    {
+      "id": 5,
+      "body": "小咪的 post",
+      "userId":1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "小咪給歪歪的 comment，小咪小咪小咪小咪小咪小咪小咪小咪小咪小咪小咪小咪小咪小咪",
+      "userId": 1,
+      "postId":4
+    },
+    {
+      "id": 2,
+      "body": "小咪給阿明的 comment 2，小咪2小咪2小咪2小咪2小咪2小咪2小咪2小咪2",
+      "userId": 1,
+      "postId":2
+    },
+    {
+      "id": 3,
+      "body": "歪歪給歪歪的 comment,歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪歪",
+      "userId": 4,
+      "postId":4
+    },
+    {
+      "id": 4,
+      "body": "阿源給小咪的 comment，阿源阿源阿源阿源阿源阿源",
+      "userId": 3,
+      "postId":5
+    }
+  ]
+}
